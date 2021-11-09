@@ -7,14 +7,13 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
 # Table of Contents
 - ### Project Proposal
   - [Inital Draft](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20(ItemSwap).pdf)
-  - Revision: November 6, 2021 
+  - [Revision: November 6, 2021](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20Nov82021.pdf)
 - ### Progress Report: November 8, 2021
-  - Summary of Deliverables
-  - Use Case Diagram(s)
-  - Use Case Descriptions
-  - Quality Attributes
-  - Constraints
-  - Architectural Concerns
+  - [Summary of Deliverables](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#progress-report-summary-of-deliverables)
+  - [Use Case Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Group23%20Use%20Case%20Diagram.png)
+  - [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
+  - [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA's%20with%20use%20cases.png)
+  - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/System%20Constraints%20With%20Use%20Cases.png)
  
  ----
  
