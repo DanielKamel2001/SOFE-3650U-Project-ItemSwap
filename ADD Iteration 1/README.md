@@ -109,6 +109,8 @@ The next step will show a representation of these instantiation design decisions
 <br>
 
 ## Step 6. Sketch Views and Record Design Decisions
+The following sketch shows a component view of both the client and server side applications and their respective reference architectures. This can now be visually represented after making the necessary design decisions.
+
 ![Component View Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Component%20View%20Diagram.png)
 
 _Figure 2 : Iteration 1 component-view sketch_
