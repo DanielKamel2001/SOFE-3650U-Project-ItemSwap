@@ -1,4 +1,4 @@
-# SOFE-3650U-Project-ItemSwap
+# SOFE-3650U-Project-ItemSwap (SwapThing)
 _Group 23: Adris Azimi, Abida Choudhury, Daniel Gohara Kamel, Jessica Leishman_
 ----
 This is a repository of for the SOFE 3650U term project. It works off of a previous assignment and expands the focus on architecture for the SOFE 3650U course. The files related to the previous courses can be found here:  https://github.com/jessica-leishman/Group68_ItemSwap 
@@ -14,6 +14,9 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
   - [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
   - [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA's%20with%20use%20cases.png)
   - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/System%20Constraints%20With%20Use%20Cases.png)
+
+- ### Attribute- Driven Design (ADD) Iteration 1
+  - []
  
  ----
  
