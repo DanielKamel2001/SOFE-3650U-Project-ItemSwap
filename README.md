@@ -32,7 +32,7 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
     - [Iteration 3 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/ADD%20Iteration%203%20Report%20pdf.pdf)
     - [Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
     - [QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
- - #### [ADD Conclusion](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#conclusion)
+  - #### [ADD Conclusion](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#conclusion)
  ----
 
 ## Project Overview
