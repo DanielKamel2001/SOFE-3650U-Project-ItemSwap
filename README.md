@@ -10,19 +10,28 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
   - [Revision: November 6, 2021](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20Nov82021.pdf)
 - ### Progress Report: November 8, 2021
   - [Summary of Deliverables](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#progress-report-summary-of-deliverables)
-  - [Use Case Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Group23%20Use%20Case%20Diagram.png)
+  - [Use Case Diagram]()
   - [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
-  - [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA's%20with%20use%20cases.png)
-  - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/System%20Constraints%20With%20Use%20Cases.png)
+  - [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA%20and%20Associated%20Use%20Cases.pdf)
+  - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/Constraints.pdf)
 
-- ### Attribute- Driven Design (ADD) Iteration 1
-  - []
+- ### Attribute- Driven Design Process (ADD) 
+  - #### [ADD Step 1]()
+  - #### [Iteration 1](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201)
+  - #### [Iteration 2](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%202)
+  - #### [Iteration 3](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203)
  
  ----
- 
+
+## Project Overview
+ This project will be an Item-Swap and Bartering website.  Users will be able to create an account to make a profile and create listings for an item.  They will be able to browse and search other listings and make offers on those listings. Offers can include items and money.  The listing will have a picture uploaded by the user, requested offers (items/money or both), and a description of the item.  The listing page will also include a link to the posting user’s profile.
+
+This website will showcase HTML, CSS, JavasScript, and PHP. The website will also incorporate the use of a mySQL database for the creation, maintenance, and storage of data.
+
+
 ## Progress Report Summary of Deliverables
 ### Use Case Diagram
-![Use case diagram for item swapping system](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Group23%20Use%20Case%20Diagram.png)
+![Use case diagram for item swapping system]()
 
 ### Use Case Descriptions
  ID | Title | Description 
@@ -40,6 +49,8 @@ UC-10 | Delete Sent Offers  | When logged in, a user can delete the offers they 
 UC-11 | Delete Received Offers  | When logged in a user can delete received offers on their listings.
 UC-12 | Send Offers | When logged in, a user can send offers on listings of other items.
 UC-13 | Search Listings | A user enters the item that they are searching for then the system queries the database for listings with titles that contain the query 
+UC-14 | View Self Profile | When logged in, a user can view their own profile fetched from the local data cache.
+UC-15 | View Other Profile | When logged in, a user can view the profiles of others fetched from the database.
 
 ### Quality Attributes and Associated Use Cases
 ID | Quality Attribute | Scenario | Associated Use Case(s)
@@ -50,7 +61,7 @@ QA-3 | Scalability | Site is able to handle multiple users (min. 4) with little 
 QA-4 | Performance | A user accesses the main homepage of the website.  The page and listings to the site are sent to the user within 30 seconds | UC-2, All
 QA-5 | Performance | A user (A) sends an offer to another user (B). B is able to quickly (within the hour if so desired) and descriptively respond to A’s offer.  | UC-6, UC-7
 QA-6 | Usability | A user (A) sends an offer to another user (B). The UI for B to respond is intuitive and clearly labeled. | UC-6, UC-7
-QA-7 | Security | A user (A) sends an offer to another user (B). Users outside of A and B cannot view the offer sent in any form. |UC-6, UC-7
+QA-7 | Security | A user (A) sends an offer to another user (B). Users outside of A and B cannot view the offer sent in any form. | UC-6, UC-7
 
 ### Constraints
 ID | Constraint |Associated Use Case(s)

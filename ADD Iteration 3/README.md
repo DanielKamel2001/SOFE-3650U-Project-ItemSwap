@@ -1,9 +1,20 @@
 # Attribute-Driven Design (ADD) Iteration 3 for SwapThing System
+This iteration focuses on further developing the design decisions made in the previous two decisions.  However, this iteration varies as it also introduces a focus on the fulfillment of some of the key quality attributes.  For this iteration, the focus was placed on Quality Attribute 4: Performance.
 
 ## Iteration 3 Quick Links:
+- ### [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
+- ### [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA%20and%20Associated%20Use%20Cases.pdf)
+- ### [Iteration 3 Report PDF]()
+   - #### [Step 2. Establish Iteration Goal by Selecting Drivers](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-2-establish-iteration-goal-by-selecting-drivers)
+   - #### [Step 3. Choose One or More Elements of the System to Refine](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-3-choose-one-or-more-elements-of-the-system-to-refine)
+   - #### [Step 4. Choose One or More Design Concepts That Satisfy the Selected Drivers](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-4-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+   - #### [Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces:](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-5-instantiate-architectural-elements-allocate-responsibilities-define-interfaces)
+   - #### [Step 6. Sketch Views and Record Design Decisions:](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-6-sketch-views-and-record-design-decisions)
+     - [Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
+     - [QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
+   - #### [Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203#step-7-perform-analysis-of-current-design-and-review-iteration-goal-and-achievement-of-design-purpose)
 
-
-This iteration focuses on further developing the design decisions made in the previous two decisions.  However, this iteration varies as it also introduces a focus on the fulfillment of some of the key quality attributes.  For this iteration, the focus was placed on Quality Attribute 4: Performance.
+<br><br>
 
 ## Step 2. Establish Iteration Goal by Selecting Drivers:
 The driver for this iteration was:
@@ -38,28 +49,30 @@ The design decisions from the previous step are allocated to direct components o
 ## Step 6. Sketch Views and Record Design Decisions:
 This step refines the diagrams developed in previous stages/iterations of the ADD process to incorporate the new decisions made in the past two steps.
 
-Figure 1 shows a refined deployment diagram of the system that focuses on the introduction of the new deployment technology used to create the system, as well as the locations of the tech used.
+Figure # shows a refined deployment diagram of the system that focuses on the introduction of the new deployment technology used to create the system, as well as the locations of the tech used.
 
-![Iteration 3 Revised Deployment Diagram](imglink “Iteration 3 Revised Deployment Diagram”)
-Figure 1: Iteration 3 Revised Deployment Diagram
+![Iteration 3 Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
 
+_Figure #: Iteration 3 Revised Deployment Diagram_
 
-Figure 2 shows a UML sequence diagram of the Quality Attribute identified for this iteration, QA-4.  This sequence diagram demonstrates the components used to support UC-6 and UC-13, and how they interact upon logging in to a fresh session of the system in contrast returning to the home page after browsing the site.
+<br>
 
-![QA-4 Sequence Diagram](imglink “QA-4 Sequence Diagram”)
-Figure 2: Sequence Diagram when accessing homepage with introduction of local cache
+Figure # shows a UML sequence diagram of the Quality Attribute identified for this iteration, QA-4.  This sequence diagram demonstrates the components used to support UC-6 and UC-13, and how they interact upon logging in to a fresh session of the system in contrast returning to the home page after browsing the site.
 
+![QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
+
+_Figure #: Sequence Diagram when accessing homepage with introduction of local cache_ 
+<br>
 
 ## Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose:
 The focus of this iteration was QA-4 (Performance), and numerous design decisions were made to support the driver goal.  In doing so, QA-6 (Usability) has also been positively impacted as the decisions made uphold and improve the task model by providing context aware information and options to the user-- a key Usability tactic outlined in Appendix A.
 
 Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During Iteration
 ----- | ----- | ----- | -----
-CON-3 | CON-1, QA-3 | QA-4, UC-2, CON-4 | Database deployed on Amazon RDS.
-Frontend deployed on AWS Lightsail.
- | |QA-4, UC-6 | Local data cache on user system
- | UC-6, UC-14| | Local data cache stores in efficient format, further research into JSON storage required (Specific technologies not chosen, partially addressed)
- | | UC-2, UC-6 , UC-13, UC-14 | Algorithm for search and listings and homepage display.
+CON-3 | CON-1, <br>QA-3 | QA-4, UC-2, CON-4 | Database deployed on Amazon RDS. Frontend deployed on AWS Lightsail.
+ </br> | </br> |QA-4, <br> UC-6 | Local data cache on user system
+</br> | UC-6, <br> UC-14| </br> | Local data cache stores in efficient format, further research into JSON storage required (Specific technologies not chosen, partially addressed)
+</br> | </br> | UC-2, <br>UC-6, <br> UC-13,<br> UC-14 | Algorithm for search and listings and homepage display.
 
 _**Quality Attributes, Constraints not addressed/applicable in this iteration:**_
 QA-3, QA-7
@@ -67,4 +80,5 @@ QA-3, QA-7
 ---
 
 ## References
-[1] 
+[1]	H. Cervantes and R. Kazman, Designing Software Architectures: A Practical Approach. 
+Addison Wesley, 2016. [E-book] pp. 211-246
