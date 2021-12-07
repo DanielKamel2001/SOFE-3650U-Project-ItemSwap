@@ -40,12 +40,12 @@ QA-4 | Performance | Low | Low
 QA-5 | Performance | Medium | Medium
 QA-6 | Usability | Medium | Medium
 QA-7 | Security | High | High
-From this list, all are selected as drivers. 
+From this list, all are selected as drivers.
 ### Constraints
-ID | Constraint 
+ID | Constraint
 ---- | ----
 CON-1 | A minimum of 4 simultaneous users must be supported
-CON-2 | The system must be accessed through a web browser on Windows 
+CON-2 | The system must be accessed through a web browser on Windows
 CON-3 | Listings are stored for a maximum of 30 days before being archived
 CON-4 | The server for the database must be generally reliable (Up when needed for demonstrations)
 
@@ -65,7 +65,7 @@ The following is the first iteration of the ADD process for a greenfield system.
 - QA-1, QA-7: Security
 - QA-3: Scalability
 - CON-1: A minimum of 4 simultaneous users must be supported
-- CON-2: The system must be accessed through a web browser on Windows 
+- CON-2: The system must be accessed through a web browser on Windows
 - CON-3: Listings are stored for a maximum of 30 days before being archived
 - CON-4: The server for the database must be generally reliable (Up when needed for demonstrations)
 
@@ -85,7 +85,7 @@ The following tables describe all the chosen and rejected design concepts that a
 
 Design Decisions and Location| Rationale and Assumptions
 --- | ---
-Logically structure the client part of the system using the web applications architecture pattern | This reference architecture supports little business logic to be hosted on the client side. (supports ALL UC, CON-2, QA-2, QA-6). <br> Applications are heavily serverside and do not rely on client to validate 
+Logically structure the client part of the system using the web applications architecture pattern | This reference architecture supports little business logic to be hosted on the client side. (supports ALL UC, CON-2, QA-2, QA-6). <br> Applications are heavily serverside and do not rely on client to validate
 Integrate logical components of Service Applications to implement pages and facilitate different content display | The web application architecture pattern overrides the non-interactive component of this application, however, service layers generate and provide content which is formatted to be sent to a user. <br> Minimizing the input required from the user supports QA-4, QA-5.  Templates are used then populated with data from the data store.
 Physically structure the application using the Three-Tier Deployment pattern | The system will be accessed from a web browser meanwhile a separate server and database will be established (CON-2 and CON-4). This requires the use of a three-tier deployment pattern as any n<3 or n>3 tier deployment pattern either does not satisfy the system’s requirements or is unnecessary for the system.
 
@@ -118,9 +118,8 @@ As a note to keep in mind, the component-view sketch is a very high-level visual
 
 Element | Responsibility
 ---- | ----
-Presentation client side | This layer contains components that control user interaction and use case control flow. 
-Browser/UI | These components render the user interface and receive user inputs.
-These components are responsible for control flow of all the system use cases (including navigation between screens)
+Presentation client side | This layer contains components that control user interaction and use case control flow.
+Browser/UI | These components render the user interface and receive user inputs. These components are responsible for control flow of all the system use cases (including navigation between screens)
 Interface Layer server side | These components expose services that are consumed by the clients.
 Generate Page | This component is responsible for creating the necessary pages for the presentation layer.
 Request Page | This component is responsible for sending a message with details on which page to create to be sent to the presentation layer.
@@ -143,7 +142,7 @@ _Figure 3 : Iteration 1 Initial Deployment Diagram_
 <br><br>
 
 The following table details the responsibility of each component:
-Element | Responsibility 
+Element | Responsibility
 ---- | ----
 User Workstation | Hosts the client side logic of the system
 Database Server | Hosts the remote database
@@ -161,7 +160,7 @@ Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Ma
 ----- | ----- | ----- | -----
 QA-3 | QA-1| CON-2 | Logically structure the client part of the system using the web applications architecture pattern.
 QA-3 | QA-6 | </br>| Integrate logical components of Service Applications to implement pages and facilitate different content display
-QA-3| </br> | </br> | Physically structure the application using the Three-Tier Deployment pattern 
+QA-3| </br> | </br> | Physically structure the application using the Three-Tier Deployment pattern
 CON-4, <br> QA-4 | </br> | QA-1 | Remove local data sources in the web application
 </br> | QA-2 | QA-6 | The interface layer of the service architecture will be responsible for page creation specifically viewing listings, user profiles, and offers.
 
