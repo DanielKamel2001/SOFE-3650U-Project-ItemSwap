@@ -51,20 +51,19 @@ The design decisions from the previous step are allocated to direct components o
 ## Step 6. Sketch Views and Record Design Decisions
 This step refines the diagrams developed in previous stages/iterations of the ADD process to incorporate the new decisions made in the past two steps.
 
-Figure # shows a refined deployment diagram of the system that focuses on the introduction of the new deployment technology used to create the system, as well as the locations of the tech used.
+Figure 7 shows a refined deployment diagram of the system that focuses on the introduction of the new deployment technology used to create the system, as well as the locations of the tech used.
 
 ![Iteration 3 Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
 
-_Figure #: Iteration 3 Revised Deployment Diagram_
+_Figure 7: Iteration 3 Revised Deployment Diagram_
+<br><br>
 
-<br>
-
-Figure # shows a UML sequence diagram of the Quality Attribute identified for this iteration, QA-4.  This sequence diagram demonstrates the components used to support UC-6 and UC-13, and how they interact upon logging in to a fresh session of the system in contrast returning to the home page after browsing the site.
+Figure 8 shows a UML sequence diagram of the Quality Attribute identified for this iteration, QA-4.  This sequence diagram demonstrates the components used to support UC-6 and UC-13, and how they interact upon logging in to a fresh session of the system in contrast returning to the home page after browsing the site.
 
 ![QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
 
-_Figure #: Sequence Diagram when accessing homepage with introduction of local cache_ 
-<br>
+_Figure 8: Sequence Diagram when accessing homepage with introduction of local cache_ 
+<br><br>
 
 ## Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
 The focus of this iteration was QA-4 (Performance), and numerous design decisions were made to support the driver goal.  In doing so, QA-6 (Usability) has also been positively impacted as the decisions made uphold and improve the task model by providing context aware information and options to the user-- a key Usability tactic outlined in Appendix A.

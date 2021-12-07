@@ -74,7 +74,7 @@ The following is the first iteration of the ADD process for a greenfield system.
 ![Context Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Context%20Diagram.png)
 
 _Figure 1 : Iteration 1 Context Diagram_
-<br>
+<br><br>
 
 ## Step 3. Choose One or More Elements of the System to Refine:
 Although this is a pre-existing system, the application has been treated like a greenfield development project to ensure all steps of the ADD process are thoroughly implemented from the start of the development process.
@@ -89,11 +89,13 @@ Logically structure the client part of the system using the web applications arc
 Integrate logical components of Service Applications to implement pages and facilitate different content display | The web application architecture pattern overrides the non-interactive component of this application, however, service layers generate and provide content which is formatted to be sent to a user. <br> Minimizing the input required from the user supports QA-4, QA-5.  Templates are used then populated with data from the data store.
 Physically structure the application using the Three-Tier Deployment pattern | The system will be accessed from a web browser meanwhile a separate server and database will be established (CON-2 and CON-4). This requires the use of a three-tier deployment pattern as any n<3 or n>3 tier deployment pattern either does not satisfy the system’s requirements or is unnecessary for the system.
 
+
 REJECTED Design Decisions and Location | Rationale/Justification
 ---- | ----
 Logically structure the client part of the system like a rich internet application architecture pattern | For security and data access purposes the server side manages the creation of pages.
 Logically structure the client part of the system like a service application architecture | While the client side requires service and data from the server side this architecture pattern does not allow for deep user interaction required for this system.
 <br>
+
 
 ## Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces
 The following table describes the design decisions made for instantiating certain elements of the system architecture.
@@ -110,7 +112,8 @@ The next step will show a representation of these instantiation design decisions
 ![Component View Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Component%20View%20Diagram.png)
 
 _Figure 2 : Iteration 1 component-view sketch_
-<br>
+<br><br>
+
 As a note to keep in mind, the component-view sketch is a very high-level visual representation of the system describing just major components and their responsibilities, the following table further details each component and their responsibilities
 
 Element | Responsibility
@@ -129,6 +132,7 @@ Data Access | This component is responsible for persistence of business entities
 Cross Cutting Layer SS | These components have functionality that goes across different layers, such as security, logging in, and IO.
 Validate login/Current User | This component is responsible for ensuring the username and password for each login attempt is valid, also for keeping track of the current user.
 Data Store | This component is responsible for supplying the mass storage of most of the system’s data.
+<br>
 
 The following diagram illustrates how the previously described components and their associated components will be deployed and interact with each other.
 <br>
@@ -136,7 +140,7 @@ The following diagram illustrates how the previously described components and th
 ![Initial Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Initial%20Deployment.png)
 
 _Figure 3 : Iteration 1 Initial Deployment Diagram_
-<br>
+<br><br>
 
 The following table details the responsibility of each component:
 Element | Responsibility 

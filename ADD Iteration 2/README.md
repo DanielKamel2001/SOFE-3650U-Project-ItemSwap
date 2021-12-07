@@ -68,13 +68,12 @@ _Figure 4: Revised system diagram from iteration 1. This revised diagram shows t
 ![Domain model of entities](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/Domain%20Model%20of%20entities.png)
 
 _Figure 5 : Displays three kinds of entities that will be used in the system._
-
-<br>
+<br><br>
 
 ![Entity Usecase relations](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/Entities%20relations%20to%20usecases%20and%20data%20stores.png)
 
 _Figure 6 : This diagram shows the relations of the different domain objects to use cases and where those use cases would retrieve the needed objects from._
-<br>
+<br><br>
 
 ## Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
 The focus of this iteration were several of the primary use cases. Numerous design decisions regarding implementation technology and component locations were made to support them.  
