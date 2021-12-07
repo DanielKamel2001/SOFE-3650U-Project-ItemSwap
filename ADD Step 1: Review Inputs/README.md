@@ -20,7 +20,7 @@ Difficulty of implementation
 
 QA-1
 
-Security 
+Security 
 
 High
 
@@ -36,7 +36,7 @@ Low
 
 QA-3
 
-Scalability 
+Scalability 
 
 Medium
 
@@ -68,17 +68,17 @@ Medium
 
 QA-7
 
-Security 
+Security 
 
 High
 
 High
 
-From this list, all are selected as drivers.                                   | QA Scenario | Importance to customer | Difficulty of implementation | QA-1
+From this list, all are selected as drivers.                                   | QA Scenario                  | Importance to customer | Difficulty of implementation | QA-1
 
-Security | High | High | QA-2
+Security                                      | High     | High                                                         | QA-2
 
-Usability | High | Low | QA-3
+Usability | High                                                               | Low | QA-3
 
 Scalability | Medium | Medium | QA-4
 
@@ -92,25 +92,25 @@ Security | High | High |
 | QA Scenario                     | Importance to customer                                                                                                                                                                                                                                                                                                                                                             | Difficulty of implementation |
 | QA-1
 
-Security                  | High                                                                                                                                                                                                                                                                                                                                                                               | High |
+Security                  | High                                                                                                                                                                                                                                                                                                                                                                               | High                         |
 | QA-2
 
-Usability                 | High                                                                                                                                                                                                                                                                                                                                                                               | Low |
+Usability                 | High                                                                                                                                                                                                                                                                                                                                                                               | Low                          |
 | QA-3
 
-Scalability               | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium |
+Scalability               | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium                       |
 | QA-4
 
-Performance               | Low                                                                                                                                                                                                                                                                                                                                                                                | Low |
+Performance               | Low                                                                                                                                                                                                                                                                                                                                                                                | Low                          |
 | QA-5
 
-Performance               | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium |
+Performance               | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium                       |
 | QA-6
 
-Usability                 | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium |
+Usability                 | Medium                                                                                                                                                                                                                                                                                                                                                                             | Medium                       |
 | QA-7
 
-Security                  | High                                                                                                                                                                                                                                                                                                                                                                               | High |
+Security                  | High                                                                                                                                                                                                                                                                                                                                                                               | High                         |
 | Constraints                     | <br>
 
 ID
@@ -123,7 +123,7 @@ A minimum of 4 simultaneous users must be supported
 
 CON-2
 
-The system must be accessed through a web browser on Windows 
+The system must be accessed through a web browser on Windows 
 
 CON-3
 
@@ -133,7 +133,7 @@ CON-4
 
 The server for the database must be generally reliable (Up when needed for demonstrations)
 
-From this list, all are selected as drivers. | ID | Constraint | CON-1 | A minimum of 4 simultaneous users must be supported | CON-2 | The system must be accessed through a web browser on Windows | CON-3 | Listings are stored for a maximum of 30 days before being archived | CON-4 | The server for the database must be generally reliable (Up when needed for demonstrations) |
+From this list, all are selected as drivers. | ID                           | Constraint             | CON-1                        | A minimum of 4 simultaneous users must be supported | CON-2    | The system must be accessed through a web browser on Windows | CON-3           | Listings are stored for a maximum of 30 days before being archived | CON-4 | The server for the database must be generally reliable (Up when needed for demonstrations) |
 | ID                              | Constraint                                                                                                                                                                                                                                                                                                                                                                         |
 | CON-1                           | A minimum of 4 simultaneous users must be supported                                                                                                                                                                                                                                                                                                                                |
 | CON-2                           | The system must be accessed through a web browser on Windows                                                                                                                                                                                                                                                                                                                       |
