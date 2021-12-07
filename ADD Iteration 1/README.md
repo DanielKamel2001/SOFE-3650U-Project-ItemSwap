@@ -5,7 +5,7 @@ This section is a result of following the ADD steps in the first iteration of th
 - ### [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
 - ### [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA%20and%20Associated%20Use%20Cases.pdf)
 - ### [Iteration 1 Step 1 PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Step%201.pdf)
-   - #### [Step 1. Review Inputs](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-1-review-inputs)
+   - #### [Step 1. Review Inputs](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-1-review-inputs-1)
 - ### [Iteration 1 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Iteration%201%20Report%20pdf.pdf)
    - #### [Step 2. Establish Iteration Goal by Selecting Drivers](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-2-establish-iteration-goal-by-selecting-drivers-1)
       - [System Context Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Context%20Diagram.png)

@@ -19,12 +19,13 @@ This iteration focuses on further developing the design decisions made in the pr
 ## Step 2. Establish Iteration Goal by Selecting Drivers
 The driver for this iteration was:
 _QA-4 Performance: a user accesses the main homepage of the website. The page and listings to the site are sent to the user and displayed (on test workbenches) within 30 seconds._
-<br>
+<br><br>
+
 ## Step 3. Choose One or More Elements of the System to Refine
 The elements to be refined are the components involved with the generation of the main homepage of the website from iteration 2.  
 
 In this case, these components are the **Generate Page component** and the **Database Server component**.  It should be noted that the **Request Data Component** is a secondary element that is refined during the iteration.  This component was added to the list of elements refined during step 4, as the introduction of the local data cache also included the storage of data in a new file format.  This means the way that pages request data will need to change to accommodate the local cache and new data format.
-<br>
+<br><br>
 
 ## Step 4. Choose One or More Design Concepts That Satisfy the Selected Drivers
 The design concepts chosen to help satisfy Quality Attribute 4 are summarized in the table below.  The techniques chosen stem from the Performance Tactics provided in Appendix A of the textbook [1].  For the decisions made, emphasis was placed on managing resources. It should also be noted that controlling the demand for said resources also plays a large role in improving performance, and as a result of this one tactic from controlling demand was integrated into the design during this step.

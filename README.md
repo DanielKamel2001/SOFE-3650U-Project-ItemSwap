@@ -11,7 +11,7 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
   - [Revision: November 6, 2021](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20Nov82021.pdf)
 - ### Progress Report: November 8, 2021
   - [Summary of Deliverables](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#progress-report-summary-of-deliverables)
-  - [Use Case Diagram]()
+  - [Use Case Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Diagram.png)
   - [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
   - [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA%20and%20Associated%20Use%20Cases.pdf)
   - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/Constraints.pdf)
@@ -32,7 +32,7 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
     - [Iteration 3 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/ADD%20Iteration%203%20Report%20pdf.pdf)
     - [Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
     - [QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
- 
+ - #### [ADD Conclusion](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#conclusion)
  ----
 
 ## Project Overview
@@ -84,7 +84,8 @@ CON-3 | Listings are stored for a maximum of 30 days before being archived | All
 CON-4 | The server for the database must be generally reliable (Up when needed for demonstrations) | All
 
 
-
+## Conclusion
+The Attribute-Driven Design process was successfully applied to the ItemSwap/SwapThing system, and a stronger understanding of the importance of reference architectures as well as design concepts has been developed. As a potential next step, further repetitions of Iteration 3 focusing on a new Quality Attribute may be conducted to fully flesh out the system. However, this is not necessary and the system is ready for further development/implementation efforts.  It is recommended that the various components outlined in iterations 1 and 2 be implemented using the technology specified in iterations 2 and 3, and task teams can now be established to work on these items.
 
 
 
