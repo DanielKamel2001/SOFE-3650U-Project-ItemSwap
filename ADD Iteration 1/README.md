@@ -4,13 +4,18 @@ This section is a result of following the ADD steps in the first iteration of th
 ## Iteration 1 Quick Links:
 - ### [Use Case Descriptions](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Descriptions.pdf)
 - ### [Quality Attributes](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/QA%20and%20Associated%20Use%20Cases.pdf)
-- ### [Iteration 1 Report PDF]()
-   - #### [Step 2. Establish Iteration Goal by Selecting Drivers]()
-   - #### [Step 3. Choose One or More Elements of the System to Refine]()
-   - #### [Step 4. Choose One or More Design Concepts That Satisfy the Selected Drivers]()
-   - #### [Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces:]())
-   - #### [Step 6. Sketch Views and Record Design Decisions:]()
-   - #### [Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose]()
+- ### [Iteration 1 Step 1 PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Step%201.pdf)
+   - #### [Step 1. Review Inputs](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-1-review-inputs)
+- ### [Iteration 1 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Iteration%201%20Report%20pdf.pdf)
+   - #### [Step 2. Establish Iteration Goal by Selecting Drivers](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-2-establish-iteration-goal-by-selecting-drivers-1)
+      - [System Context Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Context%20Diagram.png)
+   - #### [Step 3. Choose One or More Elements of the System to Refine](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-3-choose-one-or-more-elements-of-the-system-to-refine-1)
+   - #### [Step 4. Choose One or More Design Concepts That Satisfy the Selected Drivers](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-4-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers-1)
+   - #### [Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces:](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-5-instantiate-architectural-elements-allocate-responsibilities-define-interfaces-1)
+   - #### [Step 6. Sketch Views and Record Design Decisions:](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-6-sketch-views-and-record-design-decisions-1)
+      - [Component View Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Component%20View%20Diagram.png)
+      - [Initial Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Initial%20Deployment.png)
+   - #### [Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201#step-7-perform-analysis-of-current-design-and-review-iteration-goal-and-achievement-of-design-purpose-1)
 
 <br><br>
 
@@ -50,28 +55,30 @@ ID | Constraint
 CRN-1 | Leverage existing code and team’s knowledge to expand and improve existing structure.
 CRN-2 | Modify existing structure to implement architectural structures and design patterns
 CRN-3 | Allocate work to all members of the development team.
-
+<br>
 
 ## Step 2. Establish Iteration Goal by Selecting Drivers:
-For this iteration, a few primary use cases were selected as the driving forces for system decisions:
+The following is the first iteration of the ADD process for a greenfield system. The main goal of this iteration is to satisfy CRN-1 which is concerned architecturally with leveraging existing code and knowledge to expand and improve upon an existing structure. Furthermore, because this is a greenfield system, all aspects of the system are drivers as seen in the following:
 
-**UC-4, Listing Creation**
-**UC-6, View Listing**
-UC-7, Offer Creation
-UC-8, View Received Offers
+- QA-2, QA-6 : Usability
+- QA-4, QA-5: Performance
+- QA-1, QA-7: Security
+- QA-3: Scalability
+- CON-1: A minimum of 4 simultaneous users must be supported
+- CON-2: The system must be accessed through a web browser on Windows 
+- CON-3: Listings are stored for a maximum of 30 days before being archived
+- CON-4: The server for the database must be generally reliable (Up when needed for demonstrations)
 
+
+
+![Context Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Context%20Diagram.png)
+
+_Figure 1 : Iteration 1 Context Diagram_
+<br>
 
 ## Step 3. Choose One or More Elements of the System to Refine:
-The elements of the system chosen to be refined for this iteration are the various components needed to execute each of the use cases described in step 2, however, emphasis is placed on the components needed to achieve the basic functionality of the site: viewing and posting items.
-
-- Browser/UI
-- **Generate Page**
-- **Request Page**
-- **Request Data**
-- Modify Data
-- Data Access
-- Validate login/current user
-
+Although this is a pre-existing system, the application has been treated like a greenfield development project to ensure all steps of the ADD process are thoroughly implemented from the start of the development process.
+<br>
 
 ## Step 4. Choose One or More Design Concepts That Satisfy the Selected Drivers:
 The following tables describe all the chosen and rejected design concepts that are relevant to the system and its drivers.
@@ -86,9 +93,9 @@ REJECTED Design Decisions and Location | Rationale/Justification
 ---- | ----
 Logically structure the client part of the system like a rich internet application architecture pattern | For security and data access purposes the server side manages the creation of pages.
 Logically structure the client part of the system like a service application architecture | While the client side requires service and data from the server side this architecture pattern does not allow for deep user interaction required for this system.
+<br>
 
-
-## Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces:
+## Step 5. Instantiate Architectural Elements, Allocate Responsibilities, Define Interfaces
 The following table describes the design decisions made for instantiating certain elements of the system architecture.
 
 Design Decisions and Location|Rationale
@@ -97,10 +104,10 @@ Remove local data sources in the web application | Server/Database connection is
 The interface layer of the service architecture will be responsible for page creation specifically viewing listings, user profiles, and offers. | Each page is custom made to be formatted and contain information relevant and sometimes private to each user. It is necessary to have pages created server side to maintain security and prevent user access to restricted data.
 
 The next step will show a representation of these instantiation design decisions. As this is the first iteration, the goal for now is to only create high-level definitions for components and their functionality and interfaces. A more granular explanation of each component will be provided in the next iteration.
+<br>
 
-
-## Step 6. Sketch Views and Record Design Decisions:
-![Component View Diagram]()
+## Step 6. Sketch Views and Record Design Decisions
+![Component View Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Component%20View%20Diagram.png)
 
 _Figure 2 : Iteration 1 component-view sketch_
 <br>
@@ -124,10 +131,9 @@ Validate login/Current User | This component is responsible for ensuring the use
 Data Store | This component is responsible for supplying the mass storage of most of the system’s data.
 
 The following diagram illustrates how the previously described components and their associated components will be deployed and interact with each other.
-
 <br>
 
-![Initial Deployment Diagram]()
+![Initial Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Initial%20Deployment.png)
 
 _Figure 3 : Iteration 1 Initial Deployment Diagram_
 <br>
@@ -142,9 +148,9 @@ Furthermore, the following table describes the relationship between these compon
 Relationship | Description
 ---- | ----
 Web application and database server | Communication between the two components will be done using PHP and MySQL
+<br>
 
-
-## Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose:
+## Step 7. Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
 The following table details and describes the design process using the Kanban board technique.
 
 Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During Iteration

@@ -6,6 +6,7 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
 ----
 # Table of Contents
 - ### Project Proposal
+  - [Project Overview](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap#project-overview)
   - [Inital Draft](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20(ItemSwap).pdf)
   - [Revision: November 6, 2021](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Proposal/SOFE%203650U%20Proposal%20Nov82021.pdf)
 - ### Progress Report: November 8, 2021
@@ -16,10 +17,22 @@ This is a repository of for the SOFE 3650U term project. It works off of a previ
   - [Constraints](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Quality%20Attributes%20and%20Constraints/Constraints.pdf)
 
 - ### Attribute- Driven Design Process (ADD) 
-  - #### [ADD Step 1]()
+  - #### [ADD Step 1](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Step%201.pdf)
+    - [Iteration 1 Step 1 PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Step%201.pdf)
   - #### [Iteration 1](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%201)
+    - [Iteration 1 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/ADD%20Iteration%201%20Report%20pdf.pdf)
+    - [System Context Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Context%20Diagram.png)
+    - [Component View Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Component%20View%20Diagram.png)
+    - [Initial Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%201/Initial%20Deployment.png)
   - #### [Iteration 2](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%202)
+    - [Iteration 2 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/ADD%20Iteration%202%20Report%20pdf.pdf)
+    - [Revised Component View Diagram from Iteration 1](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/Revised%20Component%20view%20Diagram.png)
+    - [Domain Model of Entities](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/Domain%20Model%20of%20entities.png)
+    - [Entity Use Case Relations](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%202/Entities%20relations%20to%20usecases%20and%20data%20stores.png)
   - #### [Iteration 3](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/tree/main/ADD%20Iteration%203)
+    - [Iteration 3 Report PDF](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/ADD%20Iteration%203%20Report%20pdf.pdf)
+    - [Revised Deployment Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/Revised%20Deployment%20Diagram.png)
+    - [QA-4 Sequence Diagram](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/ADD%20Iteration%203/QA4%20Sequence%20Diagram.png)
  
  ----
 
@@ -31,7 +44,7 @@ This website will showcase HTML, CSS, JavasScript, and PHP. The website will als
 
 ## Progress Report Summary of Deliverables
 ### Use Case Diagram
-![Use case diagram for item swapping system]()
+![Use case diagram for item swapping system](https://github.com/DanielKamel2001/SOFE-3650U-Project-ItemSwap/blob/main/Use%20Cases/Use%20Case%20Diagram.png)
 
 ### Use Case Descriptions
  ID | Title | Description 
